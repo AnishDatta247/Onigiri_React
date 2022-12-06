@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Onigiri_react/static/css/main.6556cab8.css",
-    "main.js": "/Onigiri_react/static/js/main.7f2f3cd5.js",
+    "main.js": "/Onigiri_react/static/js/main.71c4da56.js",
     "static/media/slide-03.jpg": "/Onigiri_react/static/media/slide-03.29e63769dae06914e643.jpg",
     "static/media/top-left-bg.jpg": "/Onigiri_react/static/media/top-left-bg.f4bf050cea4db2aabacd.jpg",
     "static/media/slide-01.jpg": "/Onigiri_react/static/media/slide-01.005973b73ab5d27d3d00.jpg",
@@ -16,15 +16,21 @@
     "static/media/menu-item-04.jpg": "/Onigiri_react/static/media/menu-item-04.e8244181c0cd11ba6833.jpg",
     "static/media/chefs-02.jpg": "/Onigiri_react/static/media/chefs-02.6a11eea9046f1067e4ee.jpg",
     "static/media/menu-item-05.jpg": "/Onigiri_react/static/media/menu-item-05.3d89fa66a5fc3b7b6846.jpg",
+    "static/media/tab-item-06.png": "/Onigiri_react/static/media/tab-item-06.6c457ed3336326ee3119.png",
+    "static/media/tab-item-03.png": "/Onigiri_react/static/media/tab-item-03.641d75042b86656018a7.png",
     "static/media/about-thumb-03.jpg": "/Onigiri_react/static/media/about-thumb-03.d33237c40334b03a4a5b.jpg",
+    "static/media/tab-item-01.png": "/Onigiri_react/static/media/tab-item-01.6633dbd38392f66b71db.png",
     "static/media/menu-item-02.jpg": "/Onigiri_react/static/media/menu-item-02.dda4bdb996c07a4b641d.jpg",
+    "static/media/tab-item-05.png": "/Onigiri_react/static/media/tab-item-05.65a8ab4bc2f75063bda6.png",
     "static/media/chefs-03.jpg": "/Onigiri_react/static/media/chefs-03.1afcb93af30b6d7eab60.jpg",
+    "static/media/tab-item-04.png": "/Onigiri_react/static/media/tab-item-04.4efb1b351e25a8d7034a.png",
+    "static/media/tab-item-02.png": "/Onigiri_react/static/media/tab-item-02.3f17d1deb744eee93c64.png",
     "index.html": "/Onigiri_react/index.html",
     "main.6556cab8.css.map": "/Onigiri_react/static/css/main.6556cab8.css.map",
-    "main.7f2f3cd5.js.map": "/Onigiri_react/static/js/main.7f2f3cd5.js.map"
+    "main.71c4da56.js.map": "/Onigiri_react/static/js/main.71c4da56.js.map"
   },
   "entrypoints": [
     "static/css/main.6556cab8.css",
-    "static/js/main.7f2f3cd5.js"
+    "static/js/main.71c4da56.js"
   ]
 }
