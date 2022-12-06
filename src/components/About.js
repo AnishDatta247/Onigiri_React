@@ -4,11 +4,12 @@ import thumb2 from "../images/about-thumb-02.jpg"
 import thumb3 from "../images/about-thumb-03.jpg"
 
 const About = () => {
+    console.log(window.scrollY)
     return (
         <section className="about" id="about-section">
             <div className="container">
                 <div className="text-container" id="a">
-                    <h2>Abouttttt Us</h2>
+                    <h2>About Us</h2>
 
                     <h1>We Leave A Delicious Memory For You</h1>
 

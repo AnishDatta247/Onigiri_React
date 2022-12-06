@@ -27,8 +27,8 @@ const Meal = () => {
     })
 
     function openMeal(n) {
-        if(n!==meal) setMeal(prev => n)
-        // console.log(meal)
+        setMeal(n)
+        console.log(meal)
     }
 
     return (
@@ -53,6 +53,17 @@ const Meal = () => {
                 </div>
             </div>
 
+            <div className="tab-content">
+                {meal===0 && breakfastitems}
+                {meal===1 && lunchitems}
+                {meal===2 && dinneritems}
+            </div>
+
+            {/* {meal === 2 &&
+                <div className="tab-content" id="dinner">
+                    {dinneritems}
+                </div>}
+
             {meal === 0 &&
                 <div className="tab-content" id="breakfast">
                     {breakfastitems}
@@ -61,12 +72,9 @@ const Meal = () => {
             {meal === 1 &&
                 <div className="tab-content" id="lunch">
                     {lunchitems}
-                </div>}
+                </div>} */}
 
-            {meal === 2 &&
-                <div className="tab-content" id="dinner">
-                    {dinneritems}
-                </div>}
+
 
         </section>
     )
