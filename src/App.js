@@ -7,17 +7,17 @@ import App2 from "./components/App2.js";
 
 const App = () => {
     return (
-        <HashRouter>
-            <Routes>
-                <Route path="/" element={
-                    <App1/>
-                } />
-                <Route path="/menu" element={
-                    <App2/>
-                } />
-            </Routes>
-        </HashRouter>
-        // <App1 />
+        // <HashRouter>
+        //     <Routes>
+        //         <Route path="/" element={
+        //             <App1/>
+        //         } />
+        //         <Route path="/menu" element={
+        //             <App2/>
+        //         } />
+        //     </Routes>
+        // </HashRouter>
+        <App1 />
     )
 }
 
