@@ -1,21 +1,23 @@
 import React from "react";
 import App1 from "./components/App1.js"
-import MenuLink from "./components/MenuLink";
+// import MenuLink from "./components/MenuLink";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import App2 from "./components/App2.js";
 
-export default function () {
+const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/Onigiri_react/menu" element={
-                    <App2/>
-                } />
-                <Route path="/Onigiri_react" element={
+                <Route path="/" element={
                     <App1/>
+                } />
+                <Route path="/menu" element={
+                    <App2/>
                 } />
             </Routes>
         </Router>
     )
 }
+
+export default App;
