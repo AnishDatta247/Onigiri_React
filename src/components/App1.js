@@ -4,6 +4,9 @@ import Header from "./Header";
 import Home from "./Home";
 import MenuLink from "./MenuLink"
 import Chefs from "./Chefs"
+import ContactUs from "./ContactUs";
+import Meal from "./Meal";
+import Footer from "./Footer";
 
 const App1 = () => {
     return (
@@ -14,6 +17,9 @@ const App1 = () => {
                 <About />
                 <MenuLink />
                 <Chefs />
+                <ContactUs/>
+                <Meal/>
+                <Footer/>
             </div>
         </div>
     )

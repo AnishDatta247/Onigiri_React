@@ -9,10 +9,10 @@ export default function () {
     return (
         <Router>
             <Routes>
-                <Route path="/menu" element={
+                <Route path="/Onigiri_react/menu" element={
                     <App2/>
                 } />
-                <Route path="" element={
+                <Route path="/Onigiri_react" element={
                     <App1/>
                 } />
             </Routes>

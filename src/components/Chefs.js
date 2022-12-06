@@ -3,21 +3,24 @@ import data from "../data"
 import Chef from "./Chef"
 
 const Chefs = () => {
-    let chefs = data.chefs.forEach(obj => {
+    let chefs = data.chefs.map(obj => {
         return (
-            <Chef {...obj}/>
+            <Chef {...obj} />
         )
     })
 
     return (
-    <section class="chefs" id="chefs-section">
+        <section className="chefs" id="chefs-section">
             <h2>Our Chefs</h2>
 
             <h1>We offer the best ingredients for you</h1>
 
-            {chefs}
+            <div className='container'>
+                {chefs}
+            </div>
+            {/* <h1>Hello</h1> */}
         </section>
-  )
+    )
 }
 
 export default Chefs
