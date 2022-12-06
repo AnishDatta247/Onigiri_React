@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Onigiri_react/static/css/main.6556cab8.css",
-    "main.js": "/Onigiri_react/static/js/main.71c4da56.js",
+    "main.js": "/Onigiri_react/static/js/main.f34071df.js",
     "static/media/slide-03.jpg": "/Onigiri_react/static/media/slide-03.29e63769dae06914e643.jpg",
     "static/media/top-left-bg.jpg": "/Onigiri_react/static/media/top-left-bg.f4bf050cea4db2aabacd.jpg",
     "static/media/slide-01.jpg": "/Onigiri_react/static/media/slide-01.005973b73ab5d27d3d00.jpg",
@@ -27,10 +27,10 @@
     "static/media/tab-item-02.png": "/Onigiri_react/static/media/tab-item-02.3f17d1deb744eee93c64.png",
     "index.html": "/Onigiri_react/index.html",
     "main.6556cab8.css.map": "/Onigiri_react/static/css/main.6556cab8.css.map",
-    "main.71c4da56.js.map": "/Onigiri_react/static/js/main.71c4da56.js.map"
+    "main.f34071df.js.map": "/Onigiri_react/static/js/main.f34071df.js.map"
   },
   "entrypoints": [
     "static/css/main.6556cab8.css",
-    "static/js/main.71c4da56.js"
+    "static/js/main.f34071df.js"
   ]
 }
