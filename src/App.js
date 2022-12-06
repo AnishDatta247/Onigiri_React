@@ -7,16 +7,17 @@ import App2 from "./components/App2.js";
 
 const App = () => {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={
-                    <App1/>
-                } />
-                <Route path="/menu" element={
-                    <App2/>
-                } />
-            </Routes>
-        </Router>
+        // <Router>
+        //     <Routes>
+        //         <Route path="/" element={
+        //             <App1/>
+        //         } />
+        //         <Route path="/menu" element={
+        //             <App2/>
+        //         } />
+        //     </Routes>
+        // </Router>
+        <App1 />
     )
 }
 
