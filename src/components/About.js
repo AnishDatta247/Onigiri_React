@@ -8,7 +8,7 @@ const About = () => {
         <section className="about" id="about-section">
             <div className="container">
                 <div className="text-container" id="a">
-                    <h2>About Us</h2>
+                    <h2>Abouttttt Us</h2>
 
                     <h1>We Leave A Delicious Memory For You</h1>
 
