@@ -7,7 +7,7 @@ const Menu = () => {
             <h2>Our Menu</h2>
             <h1>Our Selection of dishes with quality taste</h1>
             <p>Premium sushi, dumplings, dessers and much more!</p>
-            <a href='/Onigiri_react/menu'>Check out our complete menu here.</a>
+            <a href='/#/menu'>Check out our complete menu here.</a>
 
         </section>
     )

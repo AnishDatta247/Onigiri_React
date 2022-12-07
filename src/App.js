@@ -8,12 +8,14 @@ import App2 from "./components/App2.js";
 const App = () => {
     return (
         <Router >
-            <Routes basemname={`/${process.env.PUBLIC_URL}`}>
-                <Route exact path="/Onigiri_react" element={
-                    <App1/>
-                } />
-                <Route exact path="/Onigiri_react/menu" element={
+            <Routes>
+                <Route exact path="/menu" element={
                     <App2/>
+                    // <h1>hello</h1>
+                } />
+                <Route exact path="/" element={
+                    <App1/>
+                    // <h1>hello there</h1>
                 } />
             </Routes>
         </Router>
