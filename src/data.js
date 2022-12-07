@@ -18,30 +18,35 @@ import chefimg3 from "./images/chefs-03.jpg"
 export default {
     sushi: [
         {
+            id: 1,
             price: "$4.5",
             name: "Shrimp Nigiri",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img1
         },
         {
+            id: 2,
             price: "$6.0",
             name: "Gunkan Maki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img2
         },
         {
+            id: 3,
             price: "$5.0",
             name: "Futomaki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img3
         },
         {
+            id: 4,
             price: "$3.5",
             name: "Oshizushi",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img4
         },
         {
+            id: 5,
             price: "$7.5",
             name: "Temaki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
@@ -50,18 +55,21 @@ export default {
     ],
     dumplings: [
         {
+            id: 1,
             price: "$4.5",
             name: "Shrimp Nigiri",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img1
         },
         {
+            id: 2,
             price: "$6.0",
             name: "Gunkan Maki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img2
         },
         {
+            id: 3,
             price: "$5.0",
             name: "Futomaki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
@@ -70,12 +78,14 @@ export default {
     ],
     desserts: [
         {
+            id: 1,
             price: "$6.0",
             name: "Gunkan Maki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",
             image: img2
         },
         {
+            id: 2,
             price: "$5.0",
             name: "Futomaki",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur numquam commodi, reprehenderit quos itaque?",

@@ -403,8 +403,10 @@ ul {
 }
 
 .our-menu a:hover {
-    font-size: 18px;
-    transform: translateX(-10px);
+    letter-spacing: 0.5px;
+    /* font-weight: bold; */
+    transform: translateX(-5px);
+    /* transition: 0.2s; */
 }
 
 .menu-tabs {
@@ -470,8 +472,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-colour);
-    background-color: var(--primary-colour);
+    background-color: var(--text-colour);
     font-size: 20px;
     font-weight: 700;
     color: var(--background-colour);
@@ -486,7 +487,7 @@ ul {
     z-index: 10;
     left: 0;
     bottom: 0%;
-    background-color: var(--primary-colour);
+    background-color: var(--text-colour);
     border-radius: 0 0 10px 10px;
     padding: 0.5em;
     color: var(--background-colour);
@@ -496,27 +497,27 @@ ul {
 
 .item-desc p,
 .item-desc a {
-    /* height: 0;
-    opacity: 0; */
-    /* display: none;
-    transition: all 0.3s ease; */
+    height: 0;
+    opacity: 0;
+    display: none;
+    transition: all 0.3s ease;
 
    
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
-    height: 0;
+    height: 0; */
 }
 
 .item-desc.showDesc p,
 .item-desc.showDesc a {
-    /* height: auto;
-    opacity: 1; */
-    /* display: block; */
-
     height: auto;
-    visibility: visible;
     opacity: 1;
+    display: block;
+
+    /* height: auto;
+    visibility: visible;
+    opacity: 1; */
 }
 
 /* .menu-slide:hover .item-desc a,
@@ -543,7 +544,8 @@ ul {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: var(--primary-colour);
+    background-color: var(--text-colour);
+    /* border: 3px solid var(--primary-colour); */
     width: 8em;
     height: 5.2em;
     border-radius: 0 10px 0 10px;
@@ -553,14 +555,22 @@ ul {
     /* width: 100%; */
     padding: 1rem;
     font-size: 15px;
+    transition: 0.2s;
 }
 
 .cart span{
     cursor: pointer;
+    font-weight: 700;
     transition: all ease 0.3s;
+    margin: auto;
+}
+.cart span::after{
+    content: "+";
+    color: var(--primary-colour);
 }
 .cart span:hover{
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-size: larger;
     transition: all ease 0.3s;
 }
 
@@ -568,6 +578,11 @@ ul {
     display: flex;
     gap: 1em;
     margin: auto;
+}
+
+.cart.taken{
+    transition: 0.2s;
+    background-color: var(--primary-colour);
 }
 
 .cart button{
@@ -582,6 +597,7 @@ ul {
 .cart p{
     display: inline-block;
     font-size: large;
+    color: var(--text-colour);
 }
 
 .menu-slide img {
@@ -605,10 +621,10 @@ ul {
 }
 
 .item-desc a {
-    color: var(--text-colour);
+    color: var(--primary-colour);
     text-decoration: none;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
     transition: all 0.3s;
     margin-top: 0.3em;
     display: inline-block;
@@ -617,8 +633,8 @@ ul {
 }
 
 .item-desc a:hover {
-    color: var(--text-colour);
-    font-size: 15px;
+    letter-spacing: 2px;
+    font-size: small;
     transform: translateX(0);
 }
 
@@ -630,7 +646,7 @@ ul {
 .chefs,
 .klassy-week {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 
