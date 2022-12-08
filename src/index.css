@@ -79,13 +79,17 @@ ul {
     gap: 15px;
 }
 
+#about-section, #home-section, #menu-section, #chefs-section, #contact-us-section {
+    scroll-margin-top: 3rem;
+  }
+
 .nav-item.active {
     border-radius: 5em;
     background-color: var(--primary-colour);
     padding: 5px;
 }
 
-.nav-item.active a {
+.nav-item.active span {
     color: var(--background-colour);
     display: flex;
     flex-direction: row;
@@ -123,6 +127,7 @@ ul {
 .navlink {
     transition: all 0.3s ease;
     padding: 0.5em;
+    color: var(--primary-colour);
 }
 
 .navlink:hover {
@@ -281,6 +286,10 @@ ul {
     to {
         opacity: 1
     }
+}
+
+.home{
+    margin-top: 110px;
 }
 
 .about,
@@ -598,6 +607,7 @@ ul {
     display: inline-block;
     font-size: large;
     color: var(--text-colour);
+    font-weight: bold;
 }
 
 .menu-slide img {

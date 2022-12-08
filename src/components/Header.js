@@ -23,6 +23,22 @@ export default function () {
 
         setNavState(prev => !prev);
         console.log(section, linkState.length)
+
+        if (section === 0) {
+            document.getElementById("home-section").scrollIntoView({ behaviour: "smooth" })
+        }
+        if (section === 1) {
+            document.getElementById("about-section").scrollIntoView({ behaviour: "smooth" })
+        }
+        if (section === 2) {
+            document.getElementById("menu-section").scrollIntoView({ behaviour: "smooth" })
+        }
+        if (section === 3) {
+            document.getElementById("chefs-section").scrollIntoView({ behaviour: "smooth" })
+        }
+        if (section === 4) {
+            document.getElementById("contact-us-section").scrollIntoView({ behaviour: "smooth" })
+        }
     }
 
 
@@ -50,34 +66,22 @@ export default function () {
                     </a>
                     <ul className={`nav-menu ${navState ? "active" : ""}`}>
                         <li className={`nav-item ${linkState[0] === true ? "active" : ""}`} onClick={() => openSection(0)}>
-                            <a href="#home-section" className="navlink">
-                                Home
-                            </a>
+                            <span className="navlink">Home</span>
                         </li>
                         <li className={`nav-item ${linkState[1] === true ? "active" : ""}`} onClick={() => openSection(1)}>
-                            <a href="#about-section" className="navlink">
-                                About
-                            </a>
+                            <span className="navlink">About</span>
                         </li>
                         <li className={`nav-item ${linkState[2] === true ? "active" : ""}`} onClick={() => openSection(2)}>
-                            <a href="#menu-section" className="navlink">
-                                Menu
-                            </a>
+                            <span className="navlink">Menu</span>
                         </li>
                         <li className={`nav-item ${linkState[3] === true ? "active" : ""}`} onClick={() => openSection(3)}>
-                            <a href="#chefs-section" className="navlink">
-                                Chefs
-                            </a>
+                        <span className="navlink">Chefs</span>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="navlink">
-                                Features
-                            </a>
+                        <span className="navlink">Features</span>
                         </li>
                         <li className={`nav-item ${linkState[4] === true ? "active" : ""}`} onClick={() => openSection(4)}>
-                            <a href="#contact-us-section" className="navlink">
-                                Contact Us
-                            </a>
+                        <span className="navlink">Contact Us</span>
                         </li>
                     </ul>
                     <div className={`hamburger ${hamState ? "active" : ""}`} onClick={hamClick}>
