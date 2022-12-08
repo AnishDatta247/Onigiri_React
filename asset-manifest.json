@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Onigiri_react/static/css/main.7f9f9487.css",
-    "main.js": "/Onigiri_react/static/js/main.9a4da279.js",
+    "main.css": "/Onigiri_react/static/css/main.ecc2a5d6.css",
+    "main.js": "/Onigiri_react/static/js/main.c53e8369.js",
     "static/media/slide-03.jpg": "/Onigiri_react/static/media/slide-03.29e63769dae06914e643.jpg",
     "static/media/top-left-bg.jpg": "/Onigiri_react/static/media/top-left-bg.f4bf050cea4db2aabacd.jpg",
     "static/media/slide-01.jpg": "/Onigiri_react/static/media/slide-01.005973b73ab5d27d3d00.jpg",
@@ -26,11 +26,11 @@
     "static/media/tab-item-04.png": "/Onigiri_react/static/media/tab-item-04.4efb1b351e25a8d7034a.png",
     "static/media/tab-item-02.png": "/Onigiri_react/static/media/tab-item-02.3f17d1deb744eee93c64.png",
     "index.html": "/Onigiri_react/index.html",
-    "main.7f9f9487.css.map": "/Onigiri_react/static/css/main.7f9f9487.css.map",
-    "main.9a4da279.js.map": "/Onigiri_react/static/js/main.9a4da279.js.map"
+    "main.ecc2a5d6.css.map": "/Onigiri_react/static/css/main.ecc2a5d6.css.map",
+    "main.c53e8369.js.map": "/Onigiri_react/static/js/main.c53e8369.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f9f9487.css",
-    "static/js/main.9a4da279.js"
+    "static/css/main.ecc2a5d6.css",
+    "static/js/main.c53e8369.js"
   ]
 }
