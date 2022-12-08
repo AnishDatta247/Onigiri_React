@@ -13,26 +13,11 @@ export default function () {
         setSlideIndex(prev => (prev+1)%3)
     }
 
-    // function currentSlide(n) {
-    //     showSlides(slideIndex = n);
-    // }
+    
 
-    // function showSlides(n) {
-    //     let i;
-    //     let slides = document.querySelectorAll(".slide");
-    //     console.log(slides);
-    //     if (n > slides.length) { slideIndex = 1 }
-    //     if (n < 1) { slideIndex = slides.length }
-    //     //console.log(slides)
-    //     for (i = 0; i < slides.length; i++) {
-    //         // slides[i].style.display = "none";
-            
-    //         slides[i].setAttribute("style", "display: none;")
-    //     }
-    //     // slides[slideIndex - 1].style.display = "block";
-    //     slides[slideIndex-1].setAttribute("style", "display: block;")
-    //     console.log(n);
-    // }
+    function makeRes(){
+        document.getElementById("reservation-section").scrollIntoView({behavior:"smooth"})
+    }
 
     return (
         <div className="home" id="home-section">
@@ -44,7 +29,7 @@ export default function () {
 
                 <span>The Best Sushi Experience</span>
 
-                <a href="#reservation-section">Make A Reservation</a>
+                <button onClick={makeRes}>Make a Reservation</button>
             </div>
 
 

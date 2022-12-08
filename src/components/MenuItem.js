@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 const MenuItem = (props) => {
     let [showDesc, setShowDesc] = React.useState(false);
@@ -9,16 +10,18 @@ const MenuItem = (props) => {
         setShowDesc(prev => !prev)
     }
 
-    // function addItemHandle(n){
-    //     setCart(prev => prev+n)
-    // }
+    
+    function makeRes(){
+        document.getElementById("reservation-section").scrollIntoView({behavior:"smooth"})
+    }
 
     return (
         <div className="menu-slide" onMouseEnter={handleHover} onMouseLeave={handleHover} >
             <h3>{props.price}</h3>
             <div className={`item-desc ${showDesc ? "showDesc" : ""}`}>
                 <h4>{props.name}</h4>
-                <a id="reservation-menu" href="#contact-us-section">Make Reservation </a>
+                {/* <a id="reservation-menu" href="#contact-us-section">Make Reservation </a> */}
+                <Link to="/Onigiri_react">Make Reservation</Link>
                 <p id="para-menu">{props.desc}</p>
             </div>
             <div className={`cart ${props.count!==0?"taken":""}`}>
