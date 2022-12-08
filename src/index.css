@@ -79,9 +79,17 @@ ul {
     gap: 15px;
 }
 
-#about-section, #home-section, #menu-section, #chefs-section, #contact-us-section {
+#home-section{
+    scroll-margin-top: 20rem;
+}
+#about-section, #menu-section, #chefs-section, #contact-us-section {
     scroll-margin-top: 3rem;
   }
+
+.nav-item{
+    border-radius: 5em;
+    padding: 5px;
+}
 
 .nav-item.active {
     border-radius: 5em;
@@ -130,10 +138,12 @@ ul {
     color: var(--primary-colour);
 }
 
-.navlink:hover {
-    font-size: larger;
-    color: var(--primary-colour);
-    font-weight: 500;
+
+
+.nav-item:hover .navlink {
+    color: var(--background-colour);
+    background-color: var(--primary-colour);
+    border-radius: 5em;
 }
 
 .bar {
@@ -173,13 +183,15 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 25% 0px;
+    padding-top: 110px;
     z-index: 5;
     position: relative;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* margin-top: 8em; */
 }
 
 
@@ -238,14 +250,13 @@ ul {
 
 .slide {
     display: none;
-
 }
 
 .slide img {
     object-fit: cover;
     width: 100%;
-    height: 50vw;
-    margin: -6px;
+    /* height: 50vw; */
+    margin: 0px;
 }
 
 .prev,
@@ -289,7 +300,9 @@ ul {
 }
 
 .home{
-    margin-top: 110px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
 }
 
 .about,
@@ -1183,11 +1196,12 @@ footer p {
 @media(min-width:1024px) {
     .home {
         display: grid;
-        grid-template-columns: 4fr 10fr;
+        grid-template-columns: 3fr 10fr;
+        height: 100vh;
     }
 
     .home .make-reservation {
-        width: 30vw;
+        /* width: 30vw; */
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
