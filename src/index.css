@@ -54,6 +54,8 @@ ul {
     list-style: none;
 }
 
+
+
 .header {
     position: fixed;
     top: 0;
@@ -388,7 +390,7 @@ ul {
 .contact-us,
 .about,
 .chefs {
-    padding: 16vmin;
+    padding: 10vw;
     padding-bottom: 0;
 }
 
@@ -888,7 +890,7 @@ ul {
     border-radius: 10px;
     border: 1px solid var(--secondary-colour);
     background-color: var(--secondary-colour);
-    color: var(--text-colour);
+    color: #686c70;
 }
 
 .form form textarea {
@@ -1167,6 +1169,7 @@ footer p {
 }
 
 @media(max-width:600px) {
+
     .klassy-week .meal-item {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
@@ -1201,6 +1204,9 @@ footer p {
         grid-column: 1/4;
     }
 
+    .form{
+        width: 95%;
+    }
 }
 
 @media(min-width:1024px) {
